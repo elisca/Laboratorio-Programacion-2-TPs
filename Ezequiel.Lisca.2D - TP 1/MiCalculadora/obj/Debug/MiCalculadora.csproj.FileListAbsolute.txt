@@ -1,0 +1,10 @@
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.pdb
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\bin\Debug\Entidades.dll
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\bin\Debug\Entidades.pdb
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb

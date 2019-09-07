@@ -1,0 +1,5 @@
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\Entidades\Entidades\bin\Debug\Entidades.dll
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\Entidades\Entidades\bin\Debug\Entidades.pdb
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\Entidades\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\Entidades\Entidades\obj\Debug\Entidades.dll
+G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\Entidades\Entidades\obj\Debug\Entidades.pdb
