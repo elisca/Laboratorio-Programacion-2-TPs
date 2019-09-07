@@ -8,3 +8,5 @@ G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculador
 G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
 G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
 G:\Ezequiel\Trabajos\Programacion\C#\TP 1-Calculadora\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb
+G:\Ezequiel\Trabajos\Utn\Laboratorio II - Programacion II\Material\Segundo cuatrimestre 2019\TPs\Ezequiel.Lisca.2D - TP 1\MiCalculadora\obj\Debug\MiCalculadora.exe
+G:\Ezequiel\Trabajos\Utn\Laboratorio II - Programacion II\Material\Segundo cuatrimestre 2019\TPs\Ezequiel.Lisca.2D - TP 1\MiCalculadora\obj\Debug\MiCalculadora.pdb

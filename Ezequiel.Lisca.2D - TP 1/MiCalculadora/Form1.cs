@@ -1,7 +1,4 @@
-﻿//Convierte mal de decimal a binario
-//No habilitar mas de una vez consecutiva los botones de conversión de sistemas numéricos
-//Comentar el proyecto completo
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
