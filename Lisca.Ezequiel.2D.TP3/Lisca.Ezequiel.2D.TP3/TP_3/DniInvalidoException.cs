@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TP_3
+{
+    public class DniInvalidoException:Exception
+    {
+        string mensajeBase;
+
+        public DniInvalidoException()
+        { }
+
+        public DniInvalidoException(Exception e)
+        { }
+
+        public DniInvalidoException(string message)
+        { }
+
+        public DniInvalidoException(string message, Exception e)
+        { }
+    }
+}

@@ -1,0 +1,5 @@
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb
