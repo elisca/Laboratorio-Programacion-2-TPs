@@ -1,7 +1,0 @@
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\bin\Debug\Excepciones.dll
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\bin\Debug\Excepciones.pdb
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csprojResolveAssemblyReference.cache
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb

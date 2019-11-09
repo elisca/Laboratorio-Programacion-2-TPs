@@ -1,4 +1,0 @@
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Archivos.dll
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Archivos.pdb
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.dll
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.pdb

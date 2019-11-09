@@ -1,2 +1,0 @@
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\TP3\bin\Debug\TP3.exe.config
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\TP3\obj\Debug\TP3.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Ezequiel\Documents\Auxiliar\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\bin\Debug\Lisca.Ezequiel.2D.TP3.exe.config
+C:\Users\Ezequiel\Documents\Auxiliar\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\bin\Debug\Lisca.Ezequiel.2D.TP3.exe
+C:\Users\Ezequiel\Documents\Auxiliar\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\bin\Debug\Lisca.Ezequiel.2D.TP3.pdb
+C:\Users\Ezequiel\Documents\Auxiliar\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\obj\Debug\Lisca.Ezequiel.2D.TP3.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Documents\Auxiliar\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\obj\Debug\Lisca.Ezequiel.2D.TP3.exe
+C:\Users\Ezequiel\Documents\Auxiliar\Lisca.Ezequiel.2D.TP3\Lisca.Ezequiel.2D.TP3\obj\Debug\Lisca.Ezequiel.2D.TP3.pdb
