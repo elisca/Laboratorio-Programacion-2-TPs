@@ -1,0 +1,5 @@
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Principal.exe.config
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Principal.exe
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Principal.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Archivos.dll
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Clases Abstractas.dll
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Clases Instanciables.dll
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Excepciones.dll
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Archivos.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Clases Abstractas.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Clases Instanciables.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Excepciones.pdb
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.exe
+C:\Users\Ezequiel\Documents\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.pdb
