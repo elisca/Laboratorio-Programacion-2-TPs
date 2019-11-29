@@ -14,12 +14,9 @@ namespace Principal
     {
         static void Main(string[] args)
         {
-            //Trabajar: Universitario-ParticiparEnClase
-
             Universidad uni = new Universidad();
             Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion, Alumno.EEstadoCuenta.Becado);
             uni += a1;
-            
             try
             {
                 Alumno a2 = new Alumno(2, "Juana", "Martinez", "12234458", EntidadesAbstractas.Persona.ENacionalidad.Extranjero, Universidad.EClases.Laboratorio, Alumno.EEstadoCuenta.Deudor);
@@ -89,7 +86,8 @@ namespace Principal
             Console.Clear();
             try
             {
-//                Universidad.Guardar(uni);
+                uni.Guardar(uni);
+                //                Universidad.Guardar(uni);
                 Console.WriteLine("Archivo de Universidad guardado.");
             }
             catch(ArchivosException e)
@@ -99,7 +97,7 @@ namespace Principal
             try
             {
                 int jornada = 0;
- //               Jornada.Guardar(uni[jornada]);
+                Jornada.Guardar(uni[jornada]);
                 Console.WriteLine("Archivo de Jornada {0} guardado.", jornada);
                 //Console.WriteLine(Jornada.Leer());
             }

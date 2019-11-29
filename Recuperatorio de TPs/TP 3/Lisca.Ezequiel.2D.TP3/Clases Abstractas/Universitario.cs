@@ -35,10 +35,7 @@ namespace EntidadesAbstractas
             return (pg1.Equals(pg2) && pg1.Dni == pg2.Dni);
         }
 
-        protected virtual string ParticiparEnClase()
-        {
-            return null;
-        }
+        protected abstract string ParticiparEnClase();
 
         public Universitario()
         { }

@@ -52,11 +52,10 @@ namespace Clases_Instanciables
             }
         }
 
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
             Texto archivoTexto = new Texto();
             string archivo = "BaseDatos.txt";
-            string datos;
             bool guardarOK = false;
 
             if (archivoTexto.Guardar(archivo, jornada.ToString()))
@@ -78,7 +77,7 @@ namespace Clases_Instanciables
             this.Instructor = instructor;
         }
 
-        public string Leer()
+        public static string Leer()
         {
             Texto archivoTexto = new Texto();
             string archivo = "BaseDatos.txt";

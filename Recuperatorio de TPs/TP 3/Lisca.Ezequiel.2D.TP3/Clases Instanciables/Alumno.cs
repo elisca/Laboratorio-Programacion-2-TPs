@@ -22,10 +22,12 @@ namespace Clases_Instanciables
         public Alumno()
         { }
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma) : base(id, nombre, apellido, dni, nacionalidad)
-        { }
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma):base(id, nombre, apellido, dni, nacionalidad)
+        {
+            this.claseQueToma = claseQueToma;
+        }
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta) : base(id, nombre, apellido, dni, nacionalidad)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta):this(id, nombre, apellido, dni, nacionalidad, claseQueToma)
         {
             this.estadoCuenta = estadoCuenta;
         }
@@ -51,7 +53,7 @@ namespace Clases_Instanciables
             return (a.claseQueToma == clase && a.estadoCuenta != Alumno.EEstadoCuenta.Deudor);
         }
 
-        protected string ParticiparEnClase()
+        protected override string ParticiparEnClase()
         {
             StringBuilder datosClase = new StringBuilder();
 

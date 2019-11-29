@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
+using Archivos;
 
 namespace Clases_Instanciables
 {
@@ -75,12 +76,29 @@ namespace Clases_Instanciables
 
         public bool Guardar(Universidad uni)
         {
-            return false;
+            Xml<Universidad> xmlUni = new Xml<Universidad>();
+            bool EscrituraOK = true;
+
+            if (!(xmlUni.Guardar("Universidad.xml", uni)))
+            {
+                EscrituraOK = false;
+                throw new ArchivosException(null);
+            }
+
+            return EscrituraOK;
         }
 
         public Universidad Leer()
         {
-            return null;
+            Xml<Universidad> xmlUni = new Xml<Universidad>();
+            Universidad auxUniversidad;
+
+            if (!(xmlUni.Leer("Univerdad.xml", out auxUniversidad)))
+            { 
+                throw new ArchivosException(null);
+            }
+
+            return auxUniversidad;
         }
 
         static string MostrarDatos(Universidad uni)
@@ -135,10 +153,7 @@ namespace Clases_Instanciables
                 }
             }
 
-            if (auxListaAlumnos != null)
-            {
-                auxJornada.Alumnos = auxListaAlumnos;
-            }
+            auxJornada.Alumnos = auxListaAlumnos;
             g.Jornadas.Add(auxJornada);
 
             return g;

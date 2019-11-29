@@ -18,7 +18,7 @@ C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Li
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete

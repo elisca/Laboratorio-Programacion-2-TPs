@@ -46,7 +46,7 @@ namespace Clases_Instanciables
             return i.clasesDelDia.Contains(clase);
         }
 
-        protected string ParticiparEnClase()
+        protected override string ParticiparEnClase()
         {
             StringBuilder datosClase = new StringBuilder();
 

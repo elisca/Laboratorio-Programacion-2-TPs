@@ -23,7 +23,7 @@ namespace Archivos
                     sw.Write(datos);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 escrituraOk = false;
             }
@@ -37,12 +37,12 @@ namespace Archivos
 
             try
             {
-                using (sr = new StreamReader(archivo, false))
+                using (sr = new StreamReader(archivo))
                 {
                     datos = sr.ReadToEnd();
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 lecturaOk = false;
                 datos = null;
