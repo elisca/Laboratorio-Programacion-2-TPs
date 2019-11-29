@@ -124,7 +124,7 @@ namespace EntidadesAbstractas
             }
             else
             {
-                throw new NacionalidadInvalidaException("Nacionalidad es incorrecta con respecto al DNI que se intenta ingresar.");
+                throw new NacionalidadInvalidaException("La nacionalidad no se coincide con el número de DNI");
             }
         }
 
@@ -134,7 +134,7 @@ namespace EntidadesAbstractas
 
             if (!int.TryParse(dato, out auxValDni))
             {
-                throw new DniInvalidoException("El formato de DNI que se intenta ingresar no es válido.");
+                throw new DniInvalidoException("La nacionalidad no se coincide con el número de DNI");
             }
             else
             {

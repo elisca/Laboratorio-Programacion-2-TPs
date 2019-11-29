@@ -19,6 +19,7 @@ namespace EntidadesAbstractas
         {
             StringBuilder datosUniversitario = new StringBuilder();
 
+            datosUniversitario.AppendFormat("{0}", base.ToString());
             datosUniversitario.AppendFormat("\nLEGAJO NÚMERO: {0}\n", this.legajo);
 
             return datosUniversitario.ToString();

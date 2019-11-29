@@ -9,6 +9,8 @@ namespace Excepciones
     public class AlumnoRepetidoException : Exception
     {
         public AlumnoRepetidoException()
-        { }
+        {
+            Console.WriteLine("Alumno repetido.");
+        }
     }
 }

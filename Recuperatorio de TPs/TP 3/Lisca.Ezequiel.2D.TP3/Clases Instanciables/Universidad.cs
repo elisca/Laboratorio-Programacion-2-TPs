@@ -87,21 +87,10 @@ namespace Clases_Instanciables
         {
             StringBuilder datosUniversidad = new StringBuilder();
 
-            datosUniversidad.AppendLine("JORNADA:");
-
-            foreach(Jornada auxJornada in uni.Jornadas)
+            foreach (Jornada auxJornada in uni.Jornadas)
             {
-                datosUniversidad.AppendLine(auxJornada.ToString());
+                datosUniversidad.AppendFormat(auxJornada.ToString());
             }
-
-            datosUniversidad.AppendLine("ALUMNOS:");
-
-            foreach (Alumno auxAlumno in uni.Alumnos)
-            {
-                datosUniversidad.AppendLine(auxAlumno.ToString());
-            }
-
-            datosUniversidad.AppendLine("<----------------------------------------------------->");
 
             return datosUniversidad.ToString();
         }
@@ -146,7 +135,10 @@ namespace Clases_Instanciables
                 }
             }
 
-            auxJornada.Alumnos = auxListaAlumnos;
+            if (auxListaAlumnos != null)
+            {
+                auxJornada.Alumnos = auxListaAlumnos;
+            }
             g.Jornadas.Add(auxJornada);
 
             return g;

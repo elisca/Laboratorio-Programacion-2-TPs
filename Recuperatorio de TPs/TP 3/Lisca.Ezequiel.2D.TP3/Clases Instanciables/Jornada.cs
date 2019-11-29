@@ -22,7 +22,7 @@ namespace Clases_Instanciables
 
             set
             {
-                this.Alumnos = value;
+                this.alumnos = value;
             }
         }
 
@@ -116,7 +116,16 @@ namespace Clases_Instanciables
         {
             StringBuilder datosJornada = new StringBuilder();
 
+            datosJornada.AppendLine("JORNADA:");
             datosJornada.AppendFormat("CLASE DE {0} POR {1}", this.Clase.ToString(), this.Instructor.ToString());
+            datosJornada.AppendLine("\nALUMNOS:");
+
+            foreach (Alumno auxAlumno in this.Alumnos)
+            {
+                datosJornada.AppendLine(auxAlumno.ToString());
+            }
+
+            datosJornada.AppendLine("<------------------------------>");
 
             return datosJornada.ToString();
         }

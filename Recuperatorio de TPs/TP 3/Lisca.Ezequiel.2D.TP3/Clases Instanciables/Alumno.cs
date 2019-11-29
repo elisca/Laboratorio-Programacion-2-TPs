@@ -34,8 +34,9 @@ namespace Clases_Instanciables
         {
             StringBuilder datosAlumno = new StringBuilder();
 
-            datosAlumno.AppendFormat("ESTADO DE CUENTA: {0}\n", this.estadoCuenta.ToString());
-            datosAlumno.AppendFormat("{0}\n", this.ParticiparEnClase());
+            datosAlumno.AppendLine(base.MostrarDatos());
+            datosAlumno.AppendLine("ESTADO DE CUENTA: " + this.estadoCuenta.ToString());
+            datosAlumno.AppendLine(this.ParticiparEnClase());
             
             return datosAlumno.ToString();
         }

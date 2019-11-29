@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
+
 
 namespace Clases_Instanciables
 {
@@ -15,17 +17,21 @@ namespace Clases_Instanciables
         void _randomClases()
         {
             this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0, 3));
+            Thread.Sleep(100);
             this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0, 3));
         }
 
-        protected string MostrarDatos()
+        protected override string MostrarDatos()
         {
             StringBuilder datosInstructor = new StringBuilder();
 
-            datosInstructor.AppendFormat("NOMBRE COMPLETO: {0}, {1}\n", this.Apellido, this.Nombre);
-            datosInstructor.AppendFormat("NACIONALIDAD: {0}\n", this.Nacionalidad);
-            datosInstructor.AppendFormat("LEGAJO NÚMERO: {0}", base.MostrarDatos());
-            datosInstructor.AppendFormat(this.ParticiparEnClase());
+            datosInstructor.AppendFormat(base.MostrarDatos());
+            datosInstructor.AppendLine("CLASES DEL DÍA:");
+
+            foreach (Universidad.EClases auxClaseDelDia in this.clasesDelDia)
+            {
+                datosInstructor.AppendLine(auxClaseDelDia.ToString());
+            }
 
             return datosInstructor.ToString();
         }
@@ -56,8 +62,6 @@ namespace Clases_Instanciables
 
         public Profesor()
         {
-            this.clasesDelDia = new Queue<Universidad.EClases>();
-            this._randomClases();
         }
 
         static Profesor()
@@ -68,6 +72,7 @@ namespace Clases_Instanciables
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad):base(id, nombre, apellido, dni, nacionalidad)
         {
             this.clasesDelDia = new Queue<Universidad.EClases>();
+            this._randomClases();
         }
 
         public override string ToString()
