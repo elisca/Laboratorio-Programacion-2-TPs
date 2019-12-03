@@ -9,6 +9,9 @@ namespace UnitTestProject1
     [TestClass]
     public class PruebaUnitaria
     {
+        /// <summary>
+        /// Registra dos alumnos idénticos en una universidad, debe lanzar una excepcion AlumnoRepetidoException y pasar por Assert
+        /// </summary>
         [TestMethod]
         public void TestAlumnoRepetidoException()
         {
@@ -28,6 +31,9 @@ namespace UnitTestProject1
             }
         }
 
+        /// <summary>
+        /// Crea un alumno con DNI de Argentino y nacionalidad extranjera, debe lanzar NacionalidadInvalidaException
+        /// </summary>
         [TestMethod]
         public void TestNacionalidadInvalidadException()
         {
@@ -42,6 +48,9 @@ namespace UnitTestProject1
             }
         }
 
+        /// <summary>
+        /// A un alumno le ingresa un DNI tipo string, y lo lee como int comprobando que sean el mismo número
+        /// </summary>
         [TestMethod]
         public void TestValorNumerico()
         {
@@ -61,6 +70,9 @@ namespace UnitTestProject1
             }
         }
 
+        /// <summary>
+        /// Nombre del alumno no nulo, se comprueba que tenga esa condición
+        /// </summary>
         [TestMethod]
         public void TestAtributoValorNoNulo()
         {
