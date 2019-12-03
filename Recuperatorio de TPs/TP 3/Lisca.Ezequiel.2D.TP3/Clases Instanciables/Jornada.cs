@@ -80,7 +80,7 @@ namespace Clases_Instanciables
         public static string Leer()
         {
             Texto archivoTexto = new Texto();
-            string archivo = "BaseDatos.txt";
+            string archivo = "Universidad.txt";
             string datos = null;
 
             if (!(archivoTexto.Leer(archivo, out datos)))

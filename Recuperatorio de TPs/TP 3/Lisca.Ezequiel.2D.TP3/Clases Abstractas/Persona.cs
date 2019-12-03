@@ -9,6 +9,9 @@ namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
+        /// <summary>
+        /// Enumerado para la nacionalidad
+        /// </summary>
         public enum ENacionalidad
         { 
             Argentino,
@@ -20,13 +23,16 @@ namespace EntidadesAbstractas
         ENacionalidad nacionalidad;
         string nombre;
 
+        /// <summary>
+        /// Lectura/Escritura del apellido de la persona
+        /// </summary>
         public string Apellido
         {
             get
             {
                 return this.apellido;
             }
-            set
+            set //Guarda un apellido si supera la validación (que tenga solo letras y que no sea nulo)
             {
                 if(ValidarNombreApellido(value) != null)
                 {
@@ -35,13 +41,16 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Lectura/Escritura de un DNI
+        /// </summary>
         public int Dni
         {
             get
             {
                 return this.dni;
             }
-            set
+            set //Guarda un DNI si la validación comprueba que es un número y que el DNI corresponde con la nacionalidad de esta persona
             {
                 this.dni = ValidarDni(this.Nacionalidad, value);
             }

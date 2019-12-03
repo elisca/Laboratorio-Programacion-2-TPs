@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 
-namespace Clases_Abstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
@@ -124,7 +124,7 @@ namespace Clases_Abstractas
             }
             else
             {
-                throw new NacionalidadInvalidaException("Nacionalidad es incorrecta con respecto al DNI que se intenta ingresar.");
+                throw new NacionalidadInvalidaException("La nacionalidad no se coincide con el número de DNI");
             }
         }
 
@@ -134,7 +134,7 @@ namespace Clases_Abstractas
 
             if (!int.TryParse(dato, out auxValDni))
             {
-                throw new DniInvalidoException("El formato de DNI que se intenta ingresar no es válido.");
+                throw new DniInvalidoException("La nacionalidad no se coincide con el número de DNI");
             }
             else
             {

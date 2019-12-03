@@ -1,0 +1,13 @@
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Clases Abstractas.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Clases Instanciables.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Excepciones.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Archivos.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Clases Abstractas.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Clases Instanciables.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Excepciones.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\bin\Debug\Archivos.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

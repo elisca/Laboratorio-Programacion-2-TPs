@@ -22,7 +22,7 @@ namespace Clases_Instanciables
 
             set
             {
-                this.Alumnos = value;
+                this.alumnos = value;
             }
         }
 
@@ -52,11 +52,10 @@ namespace Clases_Instanciables
             }
         }
 
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
             Texto archivoTexto = new Texto();
             string archivo = "BaseDatos.txt";
-            string datos;
             bool guardarOK = false;
 
             if (archivoTexto.Guardar(archivo, jornada.ToString()))
@@ -78,10 +77,10 @@ namespace Clases_Instanciables
             this.Instructor = instructor;
         }
 
-        public string Leer()
+        public static string Leer()
         {
             Texto archivoTexto = new Texto();
-            string archivo = "BaseDatos.txt";
+            string archivo = "Universidad.txt";
             string datos = null;
 
             if (!(archivoTexto.Leer(archivo, out datos)))
@@ -116,7 +115,16 @@ namespace Clases_Instanciables
         {
             StringBuilder datosJornada = new StringBuilder();
 
+            datosJornada.AppendLine("JORNADA:");
             datosJornada.AppendFormat("CLASE DE {0} POR {1}", this.Clase.ToString(), this.Instructor.ToString());
+            datosJornada.AppendLine("\nALUMNOS:");
+
+            foreach (Alumno auxAlumno in this.Alumnos)
+            {
+                datosJornada.AppendLine(auxAlumno.ToString());
+            }
+
+            datosJornada.AppendLine("<------------------------------>");
 
             return datosJornada.ToString();
         }

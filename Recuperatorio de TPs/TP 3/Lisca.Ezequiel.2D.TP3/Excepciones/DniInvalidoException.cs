@@ -11,7 +11,7 @@ namespace Excepciones
         public DniInvalidoException()
         { }
 
-        public DniInvalidoException(Exception e):base("", e)
+        public DniInvalidoException(Exception e) : base("DNI ingresado se comprueba incorrecto.", e)
         { }
 
         public DniInvalidoException(string message) : base(message)

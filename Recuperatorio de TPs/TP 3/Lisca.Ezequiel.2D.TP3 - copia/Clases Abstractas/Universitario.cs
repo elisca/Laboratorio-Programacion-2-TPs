@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clases_Abstractas
+namespace EntidadesAbstractas
 {
     public abstract class Universitario : Persona
     {
@@ -19,6 +19,7 @@ namespace Clases_Abstractas
         {
             StringBuilder datosUniversitario = new StringBuilder();
 
+            datosUniversitario.AppendFormat("{0}", base.ToString());
             datosUniversitario.AppendFormat("\nLEGAJO NÚMERO: {0}\n", this.legajo);
 
             return datosUniversitario.ToString();
@@ -34,10 +35,7 @@ namespace Clases_Abstractas
             return (pg1.Equals(pg2) && pg1.Dni == pg2.Dni);
         }
 
-        protected virtual string ParticiparEnClase()
-        {
-            return null;
-        }
+        protected abstract string ParticiparEnClase();
 
         public Universitario()
         { }

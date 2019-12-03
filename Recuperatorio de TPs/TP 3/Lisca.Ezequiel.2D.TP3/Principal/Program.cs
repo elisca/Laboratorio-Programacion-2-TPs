@@ -22,7 +22,7 @@ namespace Principal
                 Alumno a2 = new Alumno(2, "Juana", "Martinez", "12234458", EntidadesAbstractas.Persona.ENacionalidad.Extranjero, Universidad.EClases.Laboratorio, Alumno.EEstadoCuenta.Deudor);
                 uni += a2;
             }
-            catch(NacionalidadInvalidaException e)
+            catch (NacionalidadInvalidaException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -31,7 +31,7 @@ namespace Principal
                 Alumno a3 = new Alumno(3, "José", "Gutierrez", "12234456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion, Alumno.EEstadoCuenta.Becado);
                 uni += a3;
             }
-            catch(AlumnoRepetidoException e)
+            catch (AlumnoRepetidoException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -53,7 +53,7 @@ namespace Principal
             {
                 uni += Universidad.EClases.Programacion;
             }
-            catch(SinProfesorException e)
+            catch (SinProfesorException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -61,7 +61,7 @@ namespace Principal
             {
                 uni += Universidad.EClases.Laboratorio;
             }
-            catch(SinProfesorException e)
+            catch (SinProfesorException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -69,7 +69,7 @@ namespace Principal
             {
                 uni += Universidad.EClases.Legislacion;
             }
-            catch(SinProfesorException e)
+            catch (SinProfesorException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -77,7 +77,7 @@ namespace Principal
             {
                 uni += Universidad.EClases.SPD;
             }
-            catch(SinProfesorException e)
+            catch (SinProfesorException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -86,11 +86,10 @@ namespace Principal
             Console.Clear();
             try
             {
-                uni.Guardar(uni);
-                //                Universidad.Guardar(uni);
+                Universidad.Guardar(uni);
                 Console.WriteLine("Archivo de Universidad guardado.");
             }
-            catch(ArchivosException e)
+            catch (ArchivosException e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -101,11 +100,12 @@ namespace Principal
                 Console.WriteLine("Archivo de Jornada {0} guardado.", jornada);
                 //Console.WriteLine(Jornada.Leer());
             }
-            catch(ArchivosException e)
+            catch (ArchivosException e)
             {
                 Console.WriteLine(e.Message);
             }
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
+

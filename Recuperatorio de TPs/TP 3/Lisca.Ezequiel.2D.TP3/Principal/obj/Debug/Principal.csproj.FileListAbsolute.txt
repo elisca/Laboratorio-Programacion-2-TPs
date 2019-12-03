@@ -26,5 +26,4 @@ C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Li
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Principal\bin\Debug\Excepciones.pdb
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.exe
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.pdb
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.csprojAssemblyReference.cache
-C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.csproj.CopyComplete
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache

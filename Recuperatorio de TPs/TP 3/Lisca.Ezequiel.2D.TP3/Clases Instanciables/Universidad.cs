@@ -74,7 +74,7 @@ namespace Clases_Instanciables
             }
         }
 
-        public bool Guardar(Universidad uni)
+        public static bool Guardar(Universidad uni)
         {
             Xml<Universidad> xmlUni = new Xml<Universidad>();
             bool EscrituraOK = true;
@@ -88,7 +88,7 @@ namespace Clases_Instanciables
             return EscrituraOK;
         }
 
-        public Universidad Leer()
+        public static Universidad Leer()
         {
             Xml<Universidad> xmlUni = new Xml<Universidad>();
             Universidad auxUniversidad;
