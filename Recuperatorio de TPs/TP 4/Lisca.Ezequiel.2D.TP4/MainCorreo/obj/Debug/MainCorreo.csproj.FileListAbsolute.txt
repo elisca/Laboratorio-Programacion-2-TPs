@@ -1,0 +1,16 @@
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\Ezequiel\source\repos\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.Cache
