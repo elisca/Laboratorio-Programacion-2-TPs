@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class TrackingIdRepetidoException
+    class TrackingIdRepetidoException : Exception
     {
-        public TrackingIdRepetidoException(string mensaje)
+        public TrackingIdRepetidoException(string mensaje) : base(mensaje)
         { }
 
-        public TrackingIdRepetidoException(string mensaje, Exception inner)
+        public TrackingIdRepetidoException(string mensaje, Exception inner) : base(mensaje, inner)
         { }
     }
 }

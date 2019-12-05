@@ -16,32 +16,57 @@ namespace Entidades
             Entregado
         }
 
-        public delegate void DelegadoEstado(); //La firma del delegado hay que chequearla.
+        public delegate EEstado DelegadoEstado();
+        public event DelegadoEstado InformarEstado;
         string direccionEntrega;
         EEstado estado;
         string trackingID;
 
         public string DireccionEntrega
         {
-            get;
-            set;
+            get
+            {
+                return this.direccionEntrega;
+            }
+            set
+            {
+                this.direccionEntrega = value;
+            }
         }
 
         public EEstado Estado
         {
-            get;
-            set;
+            get
+            {
+                return this.estado;
+            }
+            set
+            {
+                this.estado = value;
+            }
         }
 
         public string TrackingID
         {
-            get;
-            set;
+            get
+            {
+                return this.trackingID;
+            }
+            set
+            {
+                this.trackingID = value;
+            }
         }
 
         public void MockCicloDeVida()
         {
-            Thread.Sleep(4000);
+            while (this.Estado != EEstado.Entregado)
+            {
+                Thread.Sleep(4000);
+                this.Estado++;
+                InformarEstado.Invoke();
+            }
+            PaqueteDAO.Insertar(this);
         }
 
         public string MostrarDatos(IMostrar<Paquete> elemento)

@@ -14,3 +14,4 @@ C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Li
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.Cache
+C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 4\Lisca.Ezequiel.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
