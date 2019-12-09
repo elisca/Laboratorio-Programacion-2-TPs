@@ -44,8 +44,9 @@
             this.lblTrackingID = new System.Windows.Forms.Label();
             this.mtxtTrackingID = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.toolStripMenuItem = new System.Windows.Forms.ToolStrip();
             this.rtbMostrar = new System.Windows.Forms.RichTextBox();
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsListas.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -72,8 +73,11 @@
             // 
             // cmsListas
             // 
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
             this.cmsListas.Name = "cmsListas";
-            this.cmsListas.Size = new System.Drawing.Size(61, 4);
+            this.cmsListas.Size = new System.Drawing.Size(181, 48);
+            this.cmsListas.Click += new System.EventHandler(this.cmsListas_Click);
             // 
             // groupBox1
             // 
@@ -83,7 +87,7 @@
             this.groupBox1.Controls.Add(this.lstEstadoEntregado);
             this.groupBox1.Controls.Add(this.lstEstadoIngresado);
             this.groupBox1.Controls.Add(this.lstEstadoEnViaje);
-            this.groupBox1.Location = new System.Drawing.Point(12, 28);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(802, 187);
             this.groupBox1.TabIndex = 3;
@@ -119,6 +123,7 @@
             // 
             // lstEstadoEntregado
             // 
+            this.lstEstadoEntregado.ContextMenuStrip = this.cmsListas;
             this.lstEstadoEntregado.FormattingEnabled = true;
             this.lstEstadoEntregado.Location = new System.Drawing.Point(535, 45);
             this.lstEstadoEntregado.Name = "lstEstadoEntregado";
@@ -149,7 +154,7 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.btnAgregar);
             this.groupBox2.Controls.Add(this.btnMostrarTodos);
-            this.groupBox2.Location = new System.Drawing.Point(550, 221);
+            this.groupBox2.Location = new System.Drawing.Point(550, 205);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(264, 148);
             this.groupBox2.TabIndex = 4;
@@ -175,6 +180,7 @@
             // mtxtTrackingID
             // 
             this.mtxtTrackingID.Location = new System.Drawing.Point(21, 42);
+            this.mtxtTrackingID.Mask = "000-000-0000";
             this.mtxtTrackingID.Name = "mtxtTrackingID";
             this.mtxtTrackingID.Size = new System.Drawing.Size(156, 20);
             this.mtxtTrackingID.TabIndex = 14;
@@ -188,41 +194,37 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Dirección";
             // 
-            // toolStripMenuItem
-            // 
-            this.toolStripMenuItem.Location = new System.Drawing.Point(0, 0);
-            this.toolStripMenuItem.Name = "toolStripMenuItem";
-            this.toolStripMenuItem.Size = new System.Drawing.Size(826, 25);
-            this.toolStripMenuItem.TabIndex = 13;
-            this.toolStripMenuItem.Text = "toolStrip1";
-            this.toolStripMenuItem.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStripMenuItem_ItemClicked);
-            // 
             // rtbMostrar
             // 
-            this.rtbMostrar.Location = new System.Drawing.Point(12, 221);
+            this.rtbMostrar.Location = new System.Drawing.Point(12, 205);
             this.rtbMostrar.Name = "rtbMostrar";
             this.rtbMostrar.Size = new System.Drawing.Size(529, 148);
             this.rtbMostrar.TabIndex = 15;
             this.rtbMostrar.Text = "";
             // 
+            // mostrarToolStripMenuItem
+            // 
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mostrarToolStripMenuItem.Text = "Mostrar";
+            // 
             // FrmPpal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 381);
+            this.ClientSize = new System.Drawing.Size(826, 364);
             this.Controls.Add(this.rtbMostrar);
-            this.Controls.Add(this.toolStripMenuItem);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmPpal";
             this.Text = "Correo UTN por Lisca.Ezequiel.2D";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPpal_FormClosing);
+            this.cmsListas.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -243,8 +245,8 @@
         private System.Windows.Forms.Label lblTrackingID;
         private System.Windows.Forms.MaskedTextBox mtxtTrackingID;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ToolStrip toolStripMenuItem;
         private System.Windows.Forms.RichTextBox rtbMostrar;
+        private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }
 

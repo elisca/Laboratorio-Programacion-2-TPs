@@ -7,30 +7,39 @@ using System.IO;
 
 namespace Entidades
 {
+    /// <summary>
+    /// Escribe un archivo de texto con los datos de los paquetes en procesos de envio
+    /// </summary>
     public static class GuardaString
     {
+        /// <summary>
+        /// Guarda un archivo de texto con la informacion de los paquetes (si existe agrega informacion, sino lo crea)
+        /// </summary>
+        /// <param name="texto">Datos a escribir</param>
+        /// <param name="archivo">Ruta completa del archivo</param>
+        /// <returns>True-Escritura exitosa, En caso de error lanza excepcion</returns>
         public static bool Guardar(this string texto, string archivo)
         {
-            string rutaEscritorio = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            StringBuilder rutaArchivo = new StringBuilder();
-            rutaArchivo.AppendFormat(@"{0}\{1}", rutaEscritorio, archivo);
-            bool escrituraOK;
+            bool estadoArchivo = false;
+            StreamWriter swArchivo = null;
 
-            try
+            try //Intenta escribir el archivo, en caso de existir agrega informacion, caso contrario lo crea
             {
-                using (StreamWriter swArchivo = new StreamWriter(rutaArchivo.ToString(), true))
-                {
-                    swArchivo.Write(texto);
-                }
+                swArchivo = new StreamWriter(archivo, true);
+                swArchivo.WriteLine(texto);
 
-                escrituraOK = true;
+                estadoArchivo = true;
             }
-            catch (Exception)
+            catch (Exception e) //En caso de error (ruta inexistente, error en datos, etc) relanza la excepcion
             {
-                escrituraOK = false;
+                throw e;
+            }
+            finally //Se asegura de cerrar la instancia que manipula el archivo abierto
+            {
+                swArchivo.Close();  
             }
 
-            return escrituraOK;
+            return estadoArchivo; //Retorna si el proceso de escritura pudo realizarse
         }
     }
 }
