@@ -8,3 +8,10 @@ C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Li
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.dll
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.pdb
 C:\Users\Ezequiel\Documents\GitHub\tp_laboratorio_2\Recuperatorio de TPs\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Ezequiel\Downloads\TP 3\Lisca.Ezequiel.2D.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache

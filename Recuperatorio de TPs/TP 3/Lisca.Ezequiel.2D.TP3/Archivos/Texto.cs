@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Excepciones;
 
 namespace Archivos
 {
@@ -24,14 +25,14 @@ namespace Archivos
 
             try //Se intenta escribir el archivo
             {
-                using (sw = new StreamWriter(archivo, false))
+                using (sw = new StreamWriter(archivo, true))
                 {
                     sw.Write(datos);
                 }
             }
-            catch (Exception) //En caso de error, se indica en la bandera que ocurrió un error
+            catch (Exception e) //En caso de error, se crea un ArchivoException y se carga como inner exception a la excepción
             {
-                escrituraOk = false;
+                throw new ArchivosException(e);
             }
 
             return escrituraOk; //Se retorna si el proceso pudo ser concretado o no
@@ -54,10 +55,10 @@ namespace Archivos
                     datos = sr.ReadToEnd();
                 }
             }
-            catch (Exception) //En caso de error, marca la bandera y los datos devueltos son "null"
+            catch (Exception e) //En caso de error, los datos devueltos son "null" y se lanza ArchivosException incluyendo a la excepcion original
             {
-                lecturaOk = false;
                 datos = null;
+                throw new ArchivosException(e);
             }
 
             return lecturaOk; //Devuelve el estado del proceso de lectura

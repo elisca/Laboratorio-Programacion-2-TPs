@@ -12,7 +12,7 @@ namespace Excepciones
         /// Error de lectura o escritura de archivos de texto o XML
         /// </summary>
         /// <param name="innerException">Excepción original</param>
-        public ArchivosException(Exception innerException) : base("Error al intentar leer archivo.", innerException)
+        public ArchivosException(Exception innerException) : base(innerException.Message, innerException)
         { }
     }
 }

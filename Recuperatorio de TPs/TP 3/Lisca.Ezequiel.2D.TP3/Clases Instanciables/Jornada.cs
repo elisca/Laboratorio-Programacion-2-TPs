@@ -66,7 +66,7 @@ namespace Clases_Instanciables
         public static bool Guardar(Jornada jornada)
         {
             Texto archivoTexto = new Texto(); //Instancia de clase que escribe el archivo
-            string archivo = "Universidad.txt"; //Ruta completa del archivo
+            string archivo = "Jornada.txt"; //Ruta completa del archivo
             bool guardarOK = false; //Bandera de estado
 
             if (archivoTexto.Guardar(archivo, jornada.ToString())) //Si logra escribir el archivo marca la bandera
@@ -103,7 +103,7 @@ namespace Clases_Instanciables
         public static string Leer()
         {
             Texto archivoTexto = new Texto(); //Instancia de la clase que lee el archivo
-            string archivo = "Universidad.txt"; //Ruta completa del archivo
+            string archivo = "Jornada.txt"; //Ruta completa del archivo
             string datos = null; //Datos leídos
 
             if (!(archivoTexto.Leer(archivo, out datos))) //Intenta leer el archivo de texto y retornar sus datos, si no lo logra lanza una excepción

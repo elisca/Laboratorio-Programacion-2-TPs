@@ -73,14 +73,14 @@ namespace Clases_Instanciables
         }
 
         /// <summary>
-        /// El alumno no pertece a una cursada y/o es deudor
+        /// El alumno no pertece a una cursada
         /// </summary>
         /// <param name="a">Alumno</param>
         /// <param name="clase">Clase</param>
-        /// <returns>True- El alumno no pertenece a esa cursada y/o es deudor, False- El alumno pertenece a esa cursada y no es deudor</returns>
+        /// <returns>True- El alumno no pertenece a esa cursada, False- El alumno pertenece a esa cursada</returns>
         public static bool operator !=(Alumno a, Universidad.EClases clase)
         {
-            return !(a == clase);
+            return (a.claseQueToma != clase);
         }
 
         /// <summary>

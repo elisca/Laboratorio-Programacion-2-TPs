@@ -11,13 +11,13 @@ namespace EntidadesAbstractas
         int legajo; //También conocido como "id" en las sobrecargas de constructor
 
         /// <summary>
-        /// Compara a la instancia de esta clase con otro objeto
+        /// Compara a la instancia de esta clase con otro objeto para saber si el legajo de ambos es el mismo
         /// </summary>
         /// <param name="obj">Objeto a comparar contra la instancia actual</param>
-        /// <returns>True- Ambos objetos son del mismo tipo, False- Ambos objetos son de diferentes tipos</returns>
-        public bool Equals(object obj)
+        /// <returns>True- Ambos objetos tienen el mismo legajo, False- Ambos objetos tienen legajos distintos</returns>
+        public override bool Equals(object obj)
         {
-            return (this.GetType() == obj.GetType());
+            return (this.legajo == ((Universitario)obj).legajo);
         }
 
         /// <summary>
@@ -46,14 +46,14 @@ namespace EntidadesAbstractas
         }
 
         /// <summary>
-        /// Ambos universitarios son el mismo
+        /// Ambos universitarios son del mismo y tienen el mismo legajo
         /// </summary>
         /// <param name="pg1">Universitario 1</param>
         /// <param name="pg2">Universitario 2</param>
-        /// <returns>True- Ambos universitarios son el mismo, False- Universitarios distintos</returns>
+        /// <returns>True- Ambos universitarios son del mismo y tienen el mismo legajo, False- Universitarios distintos</returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            return (pg1.Equals(pg2) && pg1.Dni == pg2.Dni);
+            return (pg1.Equals(pg2) && pg1.GetType() == pg2.GetType());
         }
 
         /// <summary>

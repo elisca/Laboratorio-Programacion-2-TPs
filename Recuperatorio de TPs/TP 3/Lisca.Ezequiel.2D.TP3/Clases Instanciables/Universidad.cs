@@ -119,7 +119,7 @@ namespace Clases_Instanciables
             Xml<Universidad> xmlUni = new Xml<Universidad>(); //Instancia de clase de lectura de archivos
             Universidad auxUniversidad; //Datos leídos
 
-            if (!(xmlUni.Leer("Univerdad.xml", out auxUniversidad))) //Se intenta deserializar un XML y traer los datos, en caso de error excepción
+            if (!(xmlUni.Leer("Universidad.xml", out auxUniversidad))) //Se intenta deserializar un XML y traer los datos, en caso de error excepción
             { 
                 throw new ArchivosException(null);
             }
