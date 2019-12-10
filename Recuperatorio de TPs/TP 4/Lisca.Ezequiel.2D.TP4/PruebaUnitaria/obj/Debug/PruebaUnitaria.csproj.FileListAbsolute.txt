@@ -1,0 +1,2 @@
+C:\Users\elisca\Downloads\TP 4(Funciona bien con archivo, terminar menu y comentar)\Lisca.Ezequiel.2D.TP4\PruebaUnitaria\obj\Debug\PruebaUnitaria.csprojResolveAssemblyReference.cache
+C:\Users\elisca\Downloads\TP 4(Funciona bien con archivo, terminar menu y comentar)\Lisca.Ezequiel.2D.TP4\PruebaUnitaria\obj\Debug\PruebaUnitaria.csprojAssemblyReference.cache
